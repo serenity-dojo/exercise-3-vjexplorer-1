@@ -36,13 +36,11 @@
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-screenplay</artifactId>
             <version>${serenity.version}</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-screenplay-webdriver</artifactId>
             <version>${serenity.version}</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>net.serenity-bdd</groupId>
@@ -97,15 +95,14 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>net.serenity-bdd</groupId>
-            <artifactId>serenity-core</artifactId>
-            <version>4.0.0-beta-6</version>
-            <scope>compile</scope>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-api</artifactId>
+            <version>4.12.1</version>
         </dependency>
         <dependency>
             <groupId>net.serenity-bdd</groupId>
-            <artifactId>serenity-screenplay-webdriver</artifactId>
-            <version>4.0.0-beta-6</version>
+            <artifactId>serenity-core</artifactId>
+            <version>4.0.3</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
