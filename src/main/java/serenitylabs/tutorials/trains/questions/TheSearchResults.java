@@ -7,4 +7,6 @@ public class TheSearchResults {
     public static  Question<String> heading() {
         return textOf(TFLSearchResultsPage.SEARCH_RESULTS_HEADING);
     }
+
+    public static  Question<String> firstArticleTitle (){ return textOf(TFLSearchResultsPage.FIRST_ARTICLE_HEADING);}
 }

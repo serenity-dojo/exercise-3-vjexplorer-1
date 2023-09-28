@@ -62,7 +62,7 @@ public class WhenPlanningATrip {
         carrie.attemptsTo(Click.on(CookiesDialog.ACCEPT_ALL_COOKIES),
                 Enter.theValue("Jubilee").into(TFLHomePage.SEARCH).thenHit(Keys.ENTER));
 
-        carrie.should(seeThat(TheTarget.textOf(TFLSearchResultsPage.FIRST_ARTICLE_HEADING), containsString("Jubilee")));
+        carrie.should(seeThat(TheSearchResults.firstArticleTitle(), containsString("Jubilee")));
     }
 
     @Test
